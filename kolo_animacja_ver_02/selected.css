@@ -1,0 +1,64 @@
+.aaa{
+width: 200px;
+height: 200px;
+background-color: blue;
+}
+
+.bbb{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 97, 8);
+    }
+
+
+.ccc{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(209, 255, 3);
+        }
+
+
+.cabin{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(209, 255, 3);
+            }
+
+
+            .cabin2{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(209, 255, 3);
+                }
+
+
+
+.cabin_reserved{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    }
+
+
+    .dozmiany{
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+    }
+
+    .dozmiany2{
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+    }
+
+    .red{
+        background-color: rgb(255, 0, 0);
+        width: 200px;
+        height: 200px;
+    }
+
+    .myStyle {
+        fill: red;
+        padding: 16px;
+      }

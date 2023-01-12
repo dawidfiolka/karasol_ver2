@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <link rel="stylesheet" href="selected.css">
+   <style>
+
+    </style>
+<body>
+
+   
+  
+  <!--- dzialający -->
+  <!-- <label>
+        Choose an ice cream flavor:
+        <select class="ice-cream">
+          <option id="" value="">Select One …</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="sardine">Sardine</option>
+          <option value="vanilla">Vanilla</option>
+        </select>
+      </label>
+      <div class="aaaaa"></div><br>
+
+<script>
+const selectElement1 = document.querySelector('.ice-cream');
+selectElement1.addEventListener('change', (event) => {
+  const result = document.querySelector('.aaaaa');
+  result.classList.replace("aaaaa","cabin_reserved");
+});
+</script> -->
+
+
+ <!-- <label>
+        wybierz jeden kwadrat:
+        <select class="ice-cream">
+          <option id="" value="">Select One …</option>
+          <option value="aaa">1</option>
+          <option value="bbb">2</option>
+          <option value="ccc">3</option>
+        </select>
+      </label>
+      <div class="aaa"></div><br>
+      <div class="bbb"></div><br>
+      <div class="ccc"></div><br>
+
+<script>
+const selectElement1 = document.querySelector('.ice-cream');
+selectElement1.addEventListener('change', (event) => {  
+  const result = document.querySelector('.aaa');
+  const classToChange = document.querySelector('.' + selectElement1.value);
+  console.log(selectElement1.value);
+  console.log(classToChange);
+  result.classList.replace("aaa","red");
+  classToChange.classList.replace("aaa","red");
+  classToChange.classList.replace("bbb","red");
+  classToChange.classList.replace("ccc","red");
+});
+</script> -->
+
+
+
+ <label>
+        wybierz jeden kwadrat:
+        <select class="ileosob">
+          <option id="" value="">Select One …</option>
+          <option value="cabin">1</option>
+          <option value="cabin2">2</option>
+          <option value="cabin3">3</option>
+        </select>
+      </label>
+
+
+
+      <div id="cab1" class="cabin">1</div><br>
+      <div id="cab2" class="cabin2">2</div><br>
+      <div id="cab3" class="cabin">3</div>
+
+
+
+
+<script>
+let selectElement1 = document.querySelector('.ileosob');
+selectElement1.addEventListener('change', (event) => {  
+  const classToChange = document.querySelector('.' + selectElement1.value);
+  classToChange.classList.add("cabin_reserved");
+
+});
+</script>
+  
+
+
+</body>
+
+</html>
+
+
+
